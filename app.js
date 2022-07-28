@@ -18,7 +18,7 @@ const colors = [
 
 function onClick(event) {
   ctx.beginPath();
-  ctx.moveTo(800, 800);
+  ctx.moveTo(600, 600);
   const color = colors[Math.floor(Math.random() * colors.length)];
   ctx.strokeStyle = color;
   ctx.lineTo(event.offsetX, event.offsetY);
