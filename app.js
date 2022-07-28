@@ -8,7 +8,7 @@ let isPainting = false;
 function onMove(event) {
   if (isPainting) {
     ctx.lineTo(event.offsetX, event.offsetY);
-    ctx.fill();
+    ctx.stroke();
     return;
   }
   ctx.moveTo(event.offsetX, event.offsetY);
