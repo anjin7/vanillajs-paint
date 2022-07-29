@@ -9,7 +9,6 @@
   </head>
   <body>
     <canvas></canvas>
-    <input id="line-width" type="range" min="1" max="10" value="5" step="1" />
     <div class="color-options">
       <input type="color" id="color" />
       <div
@@ -73,9 +72,13 @@
         data-color="#9fd0ff"
       ></div>
     </div>
-    <button id="mode-btn">Fill</button>
-    <button id="destroy-btn">Destroy</button>
-    <button id="eraser-btn">Erase</button>
+    <div class="btns">
+      <input id="line-width" type="range" min="1" max="10" value="5" step="1" />
+      <button id="mode-btn">Fill</button>
+      <button id="destroy-btn">Destroy</button>
+      <button id="eraser-btn">Erase</button>
+    </div>
+    
     <script src="app.js"></script>
   </body>
 </html>
