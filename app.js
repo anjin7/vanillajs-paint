@@ -95,8 +95,9 @@ function onDoubleClick(event) {
   if (text !== "") {
     ctx.save();
     ctx.lineWidth = 1;
-    ctx.font = "68px 'Press Start 2P'";
-    ctx.fillText(text, event.offsetX, event.offsetY);
+    ctx.font = "72px 'Press Start 2P'";
+    // ctx.fillText(text, event.offsetX, event.offsetY);
+    ctx.strokeText(text, event.offsetX, event.offsetY);
     ctx.restore();
   }
 }
