@@ -13,7 +13,7 @@ body{
 canvas {
   width:800px;
   height:800px;
-  border:2px solid rgb(150, 150, 150);
+  border:2px solid rgb(17, 36, 143);
   background-color: white;
   box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
 }
@@ -43,12 +43,13 @@ canvas {
 .btns {
     display: flex;
     flex-direction: column;
-    gap:20px;
+    gap: 24px;
 }
+
 button,
 label {
     all:unset;
-    padding:10px 0px;
+    padding: 10px 0px;
     text-align: center;
     background-color:rgb(17, 36, 143);
     color:white;
@@ -62,9 +63,9 @@ button:hover {
     opacity: 0.85;
 }
 
-/* input#file {
+input#file {
     display: none;
-} */
+}
 
 input#text {
     all:unset;
